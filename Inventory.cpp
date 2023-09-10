@@ -27,9 +27,6 @@ void Inventory::removeItem(int index){
 }
 
 void Inventory::sortItem(){
-    string tempName;
-    int tempStat;
-
     for(int i = 0; i < 10;i++){
         for(int j = 0;j < 10;j++){
             if(inventorySlot[i] > inventorySlot[j]){
